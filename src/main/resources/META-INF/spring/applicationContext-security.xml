@@ -20,7 +20,7 @@
 
 	<beans:bean id="ldapAuthProvider"
 		class="org.springframework.security.ldap.authentication.ad.ActiveDirectoryLdapAuthenticationProvider">
-		<beans:constructor-arg value="bnppua.net.intra" />
+		<beans:constructor-arg value="domen" />
 		<beans:constructor-arg value="ldap://server/" />
 		<beans:property name="userDetailsContextMapper" ref="userDetailsContextMapper" />
 		<beans:property name="useAuthenticationRequestCredentials" value="true" />
